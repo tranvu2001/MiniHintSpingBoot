@@ -20,7 +20,8 @@ import demo.example.demo.repository.ProductsRepository;
 
 
 
-@CrossOrigin(origins ="http://localhost:3000")
+//@CrossOrigin(origins ="http://localhost:3000")
+@CrossOrigin("*")
 @RestController
 @RequestMapping(path = "/products")
 public class ProductController {

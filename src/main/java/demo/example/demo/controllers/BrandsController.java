@@ -16,7 +16,8 @@ import org.springframework.web.bind.annotation.RestController;
 import demo.example.demo.entity.Brands;
 import demo.example.demo.repository.BrandsRepository;
 
-@CrossOrigin(origins ="http://localhost:3000")
+//@CrossOrigin(origins ="http://localhost:3000")
+@CrossOrigin("*")
 @RestController
 @RequestMapping(path = "/brands")
 public class BrandsController {
