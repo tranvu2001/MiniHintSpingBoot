@@ -17,8 +17,8 @@ import org.springframework.web.bind.annotation.RestController;
 import demo.example.demo.entity.Orders;
 import demo.example.demo.repository.OrdersRepository;
 
-//@CrossOrigin(origins ="http://localhost:3000")
-@CrossOrigin("*")
+@CrossOrigin(origins ="https://mini-hint-react-js.vercel.app/")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping(path = "/orders")
 public class OrderController {

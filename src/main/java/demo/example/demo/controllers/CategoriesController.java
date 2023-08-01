@@ -18,8 +18,8 @@ import demo.example.demo.entity.Products;
 import demo.example.demo.repository.CategoriesRepository;
 
 
-//@CrossOrigin(origins ="http://localhost:3000")
-@CrossOrigin("*")
+@CrossOrigin(origins ="https://mini-hint-react-js.vercel.app/")
+//@CrossOrigin("*")
 @RestController
 @RequestMapping(path = "/categories")
 public class CategoriesController {
