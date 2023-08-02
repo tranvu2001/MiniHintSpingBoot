@@ -20,7 +20,7 @@ import demo.example.demo.repository.ProductsRepository;
 
 
 
-//@CrossOrigin(origins ="https://mini-hint-react-js.vercel.app")
+@CrossOrigin(origins ="https://mini-hint-react-js.vercel.app")
 
 @RestController
 @RequestMapping(path = "/products")
