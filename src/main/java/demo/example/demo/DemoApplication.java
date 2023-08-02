@@ -18,7 +18,7 @@ public class DemoApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("https://mini-hint-react-js.vercel.app");
+				registry.addMapping("/**").allowedOrigins("http://mini-hint-react-js.vercel.app");
 			}
 		};
 	}
